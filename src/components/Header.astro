@@ -1,49 +1,40 @@
 ---
 import labels from '../data/labels.json';
-import { getLocalizedRoute, pathMappings } from '../i18n/utils';
 
 interface Props {
   lang: 'de' | 'en';
 }
 
 const { lang } = Astro.props;
-const t = labels[lang];
-const otherLang = lang === 'de' ? 'en' : 'de';
+const currentLocale = Astro.currentLocale as 'de' | 'en';
+const t = labels[currentLocale];
+const otherLang = currentLocale === 'de' ? 'en' : 'de';
 
 // Get current path and compute the equivalent in other language
 const currentPath = Astro.url.pathname;
 
+// Localized route slugs (same for both languages with our setup)
+const routeSlugs = {
+  research: 'forschung',
+  publications: 'publikationen',
+  cv: 'lebenslauf',
+  contact: 'kontakt'
+};
+
 // Compute other language URL
 function getOtherLangUrl(path: string): string {
-  // Replace lang prefix
-  let newPath = path.replace(/^\/(de|en)/, `/${otherLang}`);
-
-  // Handle route translations
-  if (lang === 'de') {
-    // DE -> EN
-    newPath = newPath.replace('/forschung', '/research');
-    newPath = newPath.replace('/publikationen', '/publications');
-    newPath = newPath.replace('/lebenslauf', '/cv');
-    newPath = newPath.replace('/kontakt', '/contact');
-  } else {
-    // EN -> DE
-    newPath = newPath.replace('/research', '/forschung');
-    newPath = newPath.replace('/publications', '/publikationen');
-    newPath = newPath.replace('/cv', '/lebenslauf');
-    newPath = newPath.replace('/contact', '/kontakt');
-  }
-
-  return newPath;
+  // Replace lang prefix (e.g., /de/ or /en/)
+  return path.replace(/^\/(de|en)/, `/${otherLang}`);
 }
 
 const otherLangUrl = getOtherLangUrl(currentPath);
 
 const navItems = [
-  { href: `/${lang}`, label: t.nav.home },
-  { href: getLocalizedRoute('research', lang), label: t.nav.research },
-  { href: getLocalizedRoute('publications', lang), label: t.nav.publications },
-  { href: getLocalizedRoute('cv', lang), label: t.nav.cv },
-  { href: getLocalizedRoute('contact', lang), label: t.nav.contact },
+  { href: `/${currentLocale}`, label: t.nav.home },
+  { href: `/${currentLocale}/${routeSlugs.research}`, label: t.nav.research },
+  { href: `/${currentLocale}/${routeSlugs.publications}`, label: t.nav.publications },
+  { href: `/${currentLocale}/${routeSlugs.cv}`, label: t.nav.cv },
+  { href: `/${currentLocale}/${routeSlugs.contact}`, label: t.nav.contact },
 ];
 
 // Check if current path matches nav item (for active state)
@@ -59,7 +50,7 @@ function isActive(href: string): boolean {
   <div class="max-w-6xl mx-auto px-6">
     <nav class="flex items-center justify-between h-16">
       <!-- Logo / Name -->
-      <a href={`/${lang}`} class="text-lg font-semibold text-slate-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+      <a href={`/${currentLocale}`} class="text-lg font-semibold text-slate-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
         Prof. Dr. M. Corsten
       </a>
 

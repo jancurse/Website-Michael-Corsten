@@ -4,17 +4,21 @@ import research from '../../data/research.json';
 import projects from '../../data/projects.json';
 import labels from '../../data/labels.json';
 
-const lang = 'en';
+interface Props {
+  lang: 'de' | 'en';
+}
+
+const { lang } = Astro.props;
 const t = labels[lang];
 ---
 
-<BaseLayout title="Research - Prof. Dr. Michael Corsten" lang={lang}>
+<BaseLayout title={`${t.nav.research} - Prof. Dr. Michael Corsten`} lang={lang}>
   <div class="page-container">
     <!-- Page Header -->
     <div class="mb-12">
       <h1 class="section-header">{t.nav.research}</h1>
       <p class="text-lg text-slate-600 dark:text-slate-400 max-w-3xl">
-        My research focuses on central societal questions of education, political culture, and social practices.
+        {t.research.description}
       </p>
     </div>
 

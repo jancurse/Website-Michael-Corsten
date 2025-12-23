@@ -4,7 +4,11 @@ import publications from '../../data/publications.json';
 import departmentPubs from '../../data/departmentPublications.json';
 import labels from '../../data/labels.json';
 
-const lang = 'en';
+interface Props {
+  lang: 'de' | 'en';
+}
+
+const { lang } = Astro.props;
 const t = labels[lang];
 
 function formatPublication(pub: any): string {
@@ -28,7 +32,7 @@ function formatPublication(pub: any): string {
   }
 
   if (pub.pages) {
-    result += `, pp. ${pub.pages}`;
+    result += `, ${t.labels.pages} ${pub.pages}`;
   }
 
   if (pub.publisher) {
@@ -48,7 +52,7 @@ function formatPublication(pub: any): string {
 }
 ---
 
-<BaseLayout title="Publications - Prof. Dr. Michael Corsten" lang={lang}>
+<BaseLayout title={`${t.nav.publications} - Prof. Dr. Michael Corsten`} lang={lang}>
   <div class="page-container">
     <!-- Page Header -->
     <div class="mb-12">

@@ -2,40 +2,45 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import contact from '../../data/contact.json';
 import labels from '../../data/labels.json';
-import { getLocalizedRoute } from '../../i18n/utils';
 
-const lang = 'en';
+const lang = Astro.currentLocale as 'de' | 'en';
 const t = labels[lang];
+
+// Localized route slugs (using German slugs for all with i18n routing)
+const routeSlugs = {
+  de: { research: 'forschung', publications: 'publikationen', cv: 'lebenslauf', contact: 'kontakt' },
+  en: { research: 'forschung', publications: 'publikationen', cv: 'lebenslauf', contact: 'kontakt' }
+};
 
 const navCards = [
   {
     title: t.nav.research,
-    description: 'Research focus areas and current projects',
-    href: getLocalizedRoute('research', lang),
+    description: t.index.researchDescription,
+    href: `/${lang}/${routeSlugs[lang].research}`,
     icon: 'research',
   },
   {
     title: t.nav.publications,
-    description: 'Academic publications and works',
-    href: getLocalizedRoute('publications', lang),
+    description: t.index.publicationsDescription,
+    href: `/${lang}/${routeSlugs[lang].publications}`,
     icon: 'publications',
   },
   {
     title: t.nav.cv,
-    description: 'Academic career and qualifications',
-    href: getLocalizedRoute('cv', lang),
+    description: t.index.cvDescription,
+    href: `/${lang}/${routeSlugs[lang].cv}`,
     icon: 'cv',
   },
   {
     title: t.nav.contact,
-    description: 'Contact information and office hours',
-    href: getLocalizedRoute('contact', lang),
+    description: t.index.contactDescription,
+    href: `/${lang}/${routeSlugs[lang].contact}`,
     icon: 'contact',
   },
 ];
 ---
 
-<BaseLayout title="Prof. Dr. Michael Corsten - University of Hildesheim" lang={lang}>
+<BaseLayout title={`Prof. Dr. Michael Corsten - ${t.labels.university}`} lang={lang}>
   <!-- Hero Section -->
   <section class="relative overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800"></div>
