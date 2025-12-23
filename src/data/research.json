@@ -1,0 +1,39 @@
+{
+  "focusAreas": [
+    {
+      "id": "educational-inequality",
+      "title": {
+        "de": "Bildungsungleichheit",
+        "en": "Educational Inequality"
+      }
+    },
+    {
+      "id": "communication-digital-media",
+      "title": {
+        "de": "Kommunikation und digitale Medien",
+        "en": "Communication and Digital Media"
+      }
+    },
+    {
+      "id": "political-culture",
+      "title": {
+        "de": "Politische Kultur und zivilgesellschaftliches Engagement",
+        "en": "Political Culture and Civil Society Engagement"
+      }
+    },
+    {
+      "id": "symbolic-practice",
+      "title": {
+        "de": "Symbolische Praxis und moderne Subjektivität",
+        "en": "Symbolic Practice and Modern Subjectivity"
+      }
+    },
+    {
+      "id": "solidarity",
+      "title": {
+        "de": "Solidarität",
+        "en": "Solidarity"
+      }
+    }
+  ]
+}

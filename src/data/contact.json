@@ -1,0 +1,23 @@
+{
+  "name": "Prof. Dr. Michael Corsten",
+  "title": {
+    "de": "Geschäftsf. Leiter",
+    "en": "Managing Director"
+  },
+  "institution": {
+    "de": "Institut für Sozialwissenschaften, Abteilung Soziologie",
+    "en": "Institute for Social Sciences, Department of Sociology"
+  },
+  "university": {
+    "de": "Universität Hildesheim",
+    "en": "University of Hildesheim"
+  },
+  "office": "HC.F.3.06",
+  "address": "Universitätsplatz 1, 31141 Hildesheim",
+  "phone": "+49 (0)5121 883-10702",
+  "fax": "+49 (0)5121 883-10703",
+  "officeHours": {
+    "de": "während der Vorlesungszeit: Di, 11.30-12.30 (Raum HC.F.3.06 oder telefonisch); während der vorlesungsfreien Zeit nach Vereinbarung",
+    "en": "During lecture periods: Tuesdays, 11:30-12:30 (Room HC.F.3.06 or by phone); during semester breaks by appointment"
+  }
+}

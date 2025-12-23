@@ -1,0 +1,40 @@
+---
+import contact from '../data/contact.json';
+
+interface Props {
+  lang: 'de' | 'en';
+}
+
+const { lang } = Astro.props;
+---
+
+<section class="bg-gradient-to-b from-primary-50 to-white py-16 md:py-24">
+  <div class="container-narrow">
+    <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+      <!-- Profile Image Placeholder -->
+      <div class="flex-shrink-0">
+        <div class="w-48 h-48 md:w-56 md:h-56 rounded-full bg-primary-200 flex items-center justify-center overflow-hidden border-4 border-white shadow-lg">
+          <svg class="w-24 h-24 text-primary-400" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Profile Info -->
+      <div class="text-center md:text-left">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-serif text-primary-900 mb-4">
+          {contact.name}
+        </h1>
+        <p class="text-xl text-primary-600 mb-2">
+          {contact.title[lang]}
+        </p>
+        <p class="text-lg text-primary-500">
+          {contact.institution[lang]}
+        </p>
+        <p class="text-lg text-primary-500">
+          {contact.university[lang]}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

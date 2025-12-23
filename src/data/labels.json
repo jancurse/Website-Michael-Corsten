@@ -1,0 +1,64 @@
+{
+  "de": {
+    "nav": {
+      "home": "Startseite",
+      "publications": "Publikationen",
+      "research": "Forschung",
+      "cv": "Lebenslauf",
+      "contact": "Kontakt"
+    },
+    "sections": {
+      "about": "Über mich",
+      "researchFocus": "Forschungsschwerpunkte",
+      "researchProjects": "Forschungsprojekte",
+      "publications": "Publikationen",
+      "departmentPublications": "Neueste Publikationen Soziologie",
+      "cv": "Lebenslauf und Werdegang",
+      "education": "Lebenslauf",
+      "career": "Beruflicher Werdegang",
+      "contact": "Kontakt"
+    },
+    "labels": {
+      "projectLead": "Projektleitung",
+      "office": "Büro",
+      "phone": "Telefon",
+      "fax": "Fax",
+      "officeHours": "Sprechzeiten",
+      "address": "Adresse"
+    },
+    "footer": {
+      "copyright": "Alle Rechte vorbehalten"
+    }
+  },
+  "en": {
+    "nav": {
+      "home": "Home",
+      "publications": "Publications",
+      "research": "Research",
+      "cv": "CV",
+      "contact": "Contact"
+    },
+    "sections": {
+      "about": "About",
+      "researchFocus": "Research Focus",
+      "researchProjects": "Research Projects",
+      "publications": "Publications",
+      "departmentPublications": "Recent Sociology Publications",
+      "cv": "CV and Career",
+      "education": "Education",
+      "career": "Professional Career",
+      "contact": "Contact"
+    },
+    "labels": {
+      "projectLead": "Project Lead",
+      "office": "Office",
+      "phone": "Phone",
+      "fax": "Fax",
+      "officeHours": "Office Hours",
+      "address": "Address"
+    },
+    "footer": {
+      "copyright": "All rights reserved"
+    }
+  }
+}

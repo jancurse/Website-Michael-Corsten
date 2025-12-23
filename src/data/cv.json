@@ -1,0 +1,171 @@
+{
+  "education": [
+    {
+      "years": "1982-1989",
+      "type": {
+        "de": "Studium",
+        "en": "Studies"
+      },
+      "description": {
+        "de": "der Soziologie, Volkswirtschaftslehre, Wirtschafts- und Sozialgeschichte und Philosophie an den Universitäten Marburg und Bielefeld",
+        "en": "Sociology, Economics, Economic and Social History, and Philosophy at the Universities of Marburg and Bielefeld"
+      }
+    },
+    {
+      "years": "1988",
+      "type": {
+        "de": "Diplom",
+        "en": "Diploma"
+      },
+      "description": {
+        "de": "in Soziologie am Fachbereich 3 \"Gesellschaftswissenschaften und Philosophie\" der Universität Marburg",
+        "en": "in Sociology at the Department of Social Sciences and Philosophy, University of Marburg"
+      }
+    },
+    {
+      "years": "1991",
+      "type": {
+        "de": "Promotion",
+        "en": "Doctorate"
+      },
+      "description": {
+        "de": "am Fachbereich \"Gesellschaftswissenschaften und Philosophie\" der Universität Marburg",
+        "en": "at the Department of Social Sciences and Philosophy, University of Marburg"
+      }
+    },
+    {
+      "years": "1997",
+      "type": {
+        "de": "Habilitation",
+        "en": "Habilitation"
+      },
+      "description": {
+        "de": "am Fachbereich Philosophie und Sozialwissenschaften I der Freien Universität Berlin",
+        "en": "at the Department of Philosophy and Social Sciences I, Free University of Berlin"
+      }
+    },
+    {
+      "years": "2002",
+      "type": {
+        "de": "Umhabilitation",
+        "en": "Transfer of Habilitation"
+      },
+      "description": {
+        "de": "an die FSU Jena, Fakultät für Sozial- und Verhaltenswissenschaften",
+        "en": "to FSU Jena, Faculty of Social and Behavioral Sciences"
+      }
+    }
+  ],
+  "career": [
+    {
+      "date": "01.05.2008",
+      "position": {
+        "de": "W2-Professur",
+        "en": "W2 Professorship"
+      },
+      "description": {
+        "de": "an der Universität Hildesheim",
+        "en": "at the University of Hildesheim"
+      }
+    },
+    {
+      "date": "15.09.2004",
+      "position": {
+        "de": "Ernennung zum Oberassistenten",
+        "en": "Appointment as Senior Assistant"
+      },
+      "description": {
+        "de": "am Institut für Soziologie der Friedrich-Schiller-Universität Jena (C-2 für 4 Jahre)",
+        "en": "at the Institute of Sociology, Friedrich Schiller University Jena (C-2 for 4 years)"
+      }
+    },
+    {
+      "date": "09/01-09/04",
+      "position": {
+        "de": "wiss. Mitarbeiter",
+        "en": "Research Associate"
+      },
+      "description": {
+        "de": "am SFB 580 der FSU Jena",
+        "en": "at SFB 580, FSU Jena"
+      }
+    },
+    {
+      "date": "08/00-08/01",
+      "position": {
+        "de": "wiss. Mitarbeiter",
+        "en": "Research Associate"
+      },
+      "description": {
+        "de": "MPI für Bildungsforschung, Tätigkeit im LV-Projekt zu den Bildungs- und Berufsverläufen der Kohorten 1964 und 1971",
+        "en": "MPI for Human Development, work on the LV-Project on educational and occupational trajectories of the 1964 and 1971 cohorts"
+      }
+    },
+    {
+      "date": "09/99-7/00",
+      "position": {
+        "de": "Weiterführung des DFG-Projekts",
+        "en": "Continuation of DFG Project"
+      },
+      "description": {
+        "de": "am MPI für Bildungsforschung",
+        "en": "at MPI for Human Development"
+      }
+    },
+    {
+      "date": "04/99-08/99",
+      "position": {
+        "de": "Beurlaubung wg. Lehrstuhlvertretung",
+        "en": "Leave for Chair Substitution"
+      },
+      "description": {
+        "de": "an der Gerhard-Mercator-Universität-GH Duisburg (C3 für Verwaltungssoziologie)",
+        "en": "at Gerhard Mercator University Duisburg (C3 for Administrative Sociology)"
+      }
+    },
+    {
+      "date": "01/98-03/99",
+      "position": {
+        "de": "wiss. Mitarbeiter",
+        "en": "Research Associate"
+      },
+      "description": {
+        "de": "am MPI für Bildungsforschung, Koordination und Durchführung des durch die DFG-geförderten Projekts: 'Milieus beruflicher Werdegänge'",
+        "en": "at MPI for Human Development, coordination and implementation of the DFG-funded project: \"Milieus of Occupational Careers\""
+      }
+    },
+    {
+      "date": "01/96-12/97",
+      "position": {
+        "de": "Habilitandenstipendiat",
+        "en": "Habilitation Fellow"
+      },
+      "description": {
+        "de": "der Deutschen Forschungsgemeinschaft zum Thema \"die Kultivierung beruflicher Handlungsstile\" (schriftliche Gutachter im Verfahren: Prof. Dr. K.U. Mayer; Prof. Dr. M. Kohli)",
+        "en": "of the German Research Foundation on the topic \"The Cultivation of Professional Action Styles\" (written reviewers: Prof. Dr. K.U. Mayer; Prof. Dr. M. Kohli)"
+      }
+    },
+    {
+      "date": "01/91-12/95",
+      "position": {
+        "de": "Wissenschaftlicher Mitarbeiter",
+        "en": "Research Associate"
+      },
+      "description": {
+        "de": "am Max-Planck-Institut für Bildungsforschung, Berlin, Forschungsbereich: \"Bildung, Arbeit und gesellschaftliche Entwicklung\" (Leiter: Prof. Dr. Karl Ulrich Mayer); Projekt: Moral im Beruf in Zusammenarbeit mit Prof. Dr. Wolfgang Lempert",
+        "en": "at the Max Planck Institute for Human Development, Berlin, Research Area: \"Education, Work and Social Development\" (Director: Prof. Dr. Karl Ulrich Mayer); Project: Morality in the Workplace in collaboration with Prof. Dr. Wolfgang Lempert"
+      }
+    },
+    {
+      "date": "07/88-12/90",
+      "position": {
+        "de": "Wissenschaftlicher Mitarbeiter",
+        "en": "Research Associate"
+      },
+      "description": {
+        "de": "(BAT IIa, ½-Stelle) am Institut für Soziologie der Universität Marburg; Lehrstuhl Allgemeine Soziologie, Prof. Dr. H.J. Giegel",
+        "en": "(BAT IIa, half-time) at the Institute of Sociology, University of Marburg; Chair of General Sociology, Prof. Dr. H.J. Giegel"
+      }
+    }
+  ]
+}

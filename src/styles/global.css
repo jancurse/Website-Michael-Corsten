@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased text-primary-800 bg-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-primary-900;
+  }
+
+  a {
+    @apply text-accent-600 hover:text-accent-700 transition-colors;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-2xl md:text-3xl font-serif font-normal text-primary-900 mb-6 pb-2 border-b border-primary-200;
+  }
+
+  .container-narrow {
+    @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .publication-entry {
+    @apply py-3 border-b border-primary-100 last:border-b-0;
+  }
+
+  .publication-authors {
+    @apply text-primary-700;
+  }
+
+  .publication-title {
+    @apply font-medium text-primary-900;
+  }
+
+  .publication-details {
+    @apply text-primary-600 text-sm;
+  }
+}

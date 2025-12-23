@@ -1,0 +1,38 @@
+---
+import contact from '../data/contact.json';
+import labels from '../data/labels.json';
+
+interface Props {
+  lang: 'de' | 'en';
+}
+
+const { lang } = Astro.props;
+const t = labels[lang];
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-primary-900 text-primary-100 mt-16">
+  <div class="container-narrow py-12">
+    <div class="grid md:grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-white text-lg font-serif mb-4">{contact.name}</h3>
+        <p class="text-primary-300 text-sm">
+          {contact.title[lang]}<br />
+          {contact.institution[lang]}<br />
+          {contact.university[lang]}
+        </p>
+      </div>
+      <div>
+        <h4 class="text-white text-lg font-serif mb-4">{t.sections.contact}</h4>
+        <p class="text-primary-300 text-sm">
+          {contact.address}<br />
+          {t.labels.phone}: {contact.phone}<br />
+          {t.labels.office}: {contact.office}
+        </p>
+      </div>
+    </div>
+    <div class="border-t border-primary-700 mt-8 pt-8 text-center text-primary-400 text-sm">
+      &copy; {currentYear} {contact.name}. {t.footer.copyright}.
+    </div>
+  </div>
+</footer>

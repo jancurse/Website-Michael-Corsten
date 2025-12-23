@@ -1,0 +1,53 @@
+---
+import contact from '../data/contact.json';
+import labels from '../data/labels.json';
+
+interface Props {
+  lang: 'de' | 'en';
+}
+
+const { lang } = Astro.props;
+const t = labels[lang];
+---
+
+<section id={lang === 'de' ? 'kontakt' : 'contact'} class="py-16">
+  <div class="container-narrow">
+    <h2 class="section-title">{t.sections.contact}</h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Contact Details -->
+      <div class="bg-white p-6 rounded-lg border border-primary-100 shadow-sm">
+        <dl class="space-y-4">
+          <div>
+            <dt class="text-sm font-medium text-primary-500 uppercase tracking-wide">{t.labels.office}</dt>
+            <dd class="mt-1 text-primary-900">{contact.office}</dd>
+          </div>
+          <div>
+            <dt class="text-sm font-medium text-primary-500 uppercase tracking-wide">{t.labels.address}</dt>
+            <dd class="mt-1 text-primary-900">{contact.address}</dd>
+          </div>
+          <div>
+            <dt class="text-sm font-medium text-primary-500 uppercase tracking-wide">{t.labels.phone}</dt>
+            <dd class="mt-1 text-primary-900">
+              <a href={`tel:${contact.phone.replace(/\s/g, '')}`} class="hover:text-accent-600">
+                {contact.phone}
+              </a>
+            </dd>
+          </div>
+          <div>
+            <dt class="text-sm font-medium text-primary-500 uppercase tracking-wide">{t.labels.fax}</dt>
+            <dd class="mt-1 text-primary-900">{contact.fax}</dd>
+          </div>
+        </dl>
+      </div>
+
+      <!-- Office Hours -->
+      <div class="bg-primary-50 p-6 rounded-lg border border-primary-100">
+        <h3 class="text-lg font-serif text-primary-900 mb-4">{t.labels.officeHours}</h3>
+        <p class="text-primary-700 leading-relaxed">
+          {contact.officeHours[lang]}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

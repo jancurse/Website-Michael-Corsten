@@ -1,0 +1,41 @@
+---
+import research from '../data/research.json';
+import projects from '../data/projects.json';
+import labels from '../data/labels.json';
+
+interface Props {
+  lang: 'de' | 'en';
+}
+
+const { lang } = Astro.props;
+const t = labels[lang];
+---
+
+<section id={lang === 'de' ? 'forschung' : 'research'} class="py-16 bg-primary-50">
+  <div class="container-narrow">
+    <!-- Research Focus Areas -->
+    <h2 class="section-title">{t.sections.researchFocus}</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
+      {research.focusAreas.map((area) => (
+        <div class="bg-white p-5 rounded-lg shadow-sm border border-primary-100 hover:shadow-md transition-shadow">
+          <h3 class="font-medium text-primary-800">{area.title[lang]}</h3>
+        </div>
+      ))}
+    </div>
+
+    <!-- Research Projects -->
+    <h2 class="section-title">{t.sections.researchProjects}</h2>
+    <div class="space-y-4">
+      {projects.projects.map((project) => (
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-primary-100">
+          <h3 class="font-medium text-primary-900 mb-2">{project.title[lang]}</h3>
+          {project.lead && (
+            <p class="text-sm text-primary-600">
+              <span class="font-medium">{t.labels.projectLead}:</span> {project.lead}
+            </p>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

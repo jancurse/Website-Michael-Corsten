@@ -1,0 +1,234 @@
+{
+  "departmentPublications": [
+    {
+      "year": 2025,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Schubert, Volker",
+          "title": "Die Schnulze. Warum wir sie trotzdem lieben. Erkundungen an den Grenzen des Geschmacks",
+          "edition": "1. Aufl.",
+          "location": "Weilerswist",
+          "publisher": "Dittrich",
+          "type": "book"
+        },
+        {
+          "authors": "Herma, Holger",
+          "title": "Beziehung, die [bəˈtsiːʊŋ]",
+          "in": "B wie Bildung. 66 bedeutsame Begriffe",
+          "editors": "Leser, Irene; Isensee, Fanny",
+          "location": "Weinheim und Basel",
+          "publisher": "Beltz Juventa",
+          "pages": "99-102",
+          "type": "chapter"
+        },
+        {
+          "authors": "Rippl, Susanne; Seipel, Christian",
+          "title": "Methods of Cross-Cultural Social Research. An Introduction",
+          "location": "Wiesbaden",
+          "publisher": "Springer",
+          "type": "book"
+        },
+        {
+          "authors": "Rippl, Susanne; Seipel, Christian",
+          "title": "\"Der Merkel-Maulkorb\". Die Politisierung staatlicher Maßnahmen im Kontext der Corona-Pandemie",
+          "journal": "Soziale Probleme",
+          "volume": "1",
+          "pages": "73-93",
+          "type": "article"
+        },
+        {
+          "authors": "Corsten, Michael; Kahle, Patrick",
+          "title": "Soziale Arbeit als professionalisierte Solidarität",
+          "in": "Soziale Arbeit und Soziologie",
+          "editors": "Sander, T.; Langer, A.",
+          "location": "Weinheim",
+          "publisher": "Beltz Juventa",
+          "type": "chapter"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Pierburg, Melanie",
+          "title": "\"Was mit ihr passiert ist, weiß ich nicht mehr\": Mythisierungsweisen des Vergessenen",
+          "journal": "Zeitschrift für Biographieforschung, Oral History und Lebensverlaufsanalysen (BIOS)",
+          "volume": "36 (1/2023)",
+          "pages": "94-114",
+          "type": "article"
+        },
+        {
+          "authors": "Holderberg, Per; Dippelhofer, Sebastian; Buchberger, Stephan",
+          "title": "Hochschulen als demokratische Sozialisationsagenturen – Empirische Ergebnisse zur politischen Orientierung von Studierenden und ihrem freiwilligen Engagement in der Hochschulpolitik",
+          "journal": "Zeitschrift für Soziologie der Erziehung und Sozialisation",
+          "volume": "44(4)",
+          "pages": "418-435",
+          "type": "article"
+        },
+        {
+          "authors": "Rippl, Susanne; Seipel, Christian",
+          "title": "Abgehängt oder autoritär? Motive der Sympathisant*innen rechtspopulistischer Einstellungen und Politikangebote",
+          "in": "Handbuch Rechtsextremismus",
+          "editors": "Virchow, Fabian; Hoffstadt, Anke; Heß, Cordelia; Häusler, Alexander",
+          "location": "Wiesbaden",
+          "publisher": "Springer VS",
+          "type": "chapter"
+        },
+        {
+          "authors": "Herma, Holger; Maleyka, Laura",
+          "title": "Subject Staging and Communication Power Digital",
+          "in": "The Forgotten Subject. Subject Constitutions in Mediatized Everyday Worlds",
+          "editors": "Gentzel, Peter; Krotz, Friedrich; Wimmer, Jeffrey; Winter, Rainer",
+          "location": "Wiesbaden",
+          "publisher": "Palgrave Macmillan",
+          "pages": "209-232",
+          "type": "chapter"
+        },
+        {
+          "authors": "Corsten, Michael; Holderberg, Per",
+          "title": "Kohorte und Generation",
+          "in": "Handbuch Sozialstrukturanalyse",
+          "editors": "Böhnke, P.; Konietzka, D.",
+          "location": "Wiesbaden",
+          "publisher": "Springer VS",
+          "type": "chapter"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Identitätspolitik und soziale Klassifikation",
+          "in": "Handbuch Sozialstrukturanalyse",
+          "editors": "Böhnke, P.; Konietzka, D.",
+          "location": "Wiesbaden",
+          "publisher": "Springer VS",
+          "type": "chapter"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "entries": [
+        {
+          "authors": "Herma, Holger; Wittchen, Tobias",
+          "title": "Das Urteil des Alltagsmenschen. Disqualifikation der Gender Studies im Anti-Intellektualismus der heiteren Kolumne",
+          "in": "Geschlechter – Verhältnisse – Widersprüche. Hildesheimer Geschlechterforschung, Bd. 7",
+          "editors": "Hoffarth, Britta; Mentzing, Stina; Richter, Susanne",
+          "location": "Frankfurt / New York",
+          "publisher": "Campus",
+          "pages": "155-180",
+          "type": "chapter"
+        },
+        {
+          "authors": "Herma, Holger; Greve, Werner",
+          "title": "A Processed Processor: The Processual Nature of the Self",
+          "journal": "Review of General Psychology",
+          "publisher": "SAGE",
+          "volume": "OnlineFirst, Vol. 0/(0)",
+          "pages": "1-17",
+          "type": "article"
+        },
+        {
+          "authors": "Oswald, Sascha; Herma, Holger",
+          "title": "'Ich bin Dein und nicht Dein' oder: Wie Liebe mit Betriebssystemen (nicht) funktioniert. Eine soziologische Betrachtung des Zukunftsentwurfs im Film 'Her'",
+          "in": "Polarisierte Welten. Verhandlungen des 41. Kongresses der Deutschen Gesellschaft für Soziologie 2022, 10",
+          "editors": "Villa, Paula-Irene",
+          "type": "conference"
+        },
+        {
+          "authors": "Seipel, Christian; Holderberg, Per; Buchberger, Stephan",
+          "title": "Determinanten der Zufriedenheit von hochschulpolitisch engagierten Studierenden in Deutschland",
+          "journal": "Personal- und Organisationsentwicklung in Einrichtungen der Lehre und Forschung (P-OE). Forum für Führung, Moderation, Training, Programm-Organisation",
+          "volume": "18. Jahrgang, 1+2/2023",
+          "pages": "17-22",
+          "type": "article"
+        },
+        {
+          "authors": "Herma, Holger",
+          "title": "Generationen der Liebe. Eine soziologische Skizze",
+          "journal": "Sozialmagazin. Die Zeitschrift für soziale Arbeit. Sonderausgabe 'Liebe'",
+          "volume": "5-6/2023",
+          "editors": "Dorafschan, Nina; Kotthaus, Jochem",
+          "location": "Weinheim/Basel",
+          "publisher": "Beltz Juventa",
+          "pages": "13-21",
+          "type": "article"
+        },
+        {
+          "authors": "Rippl, Susanne; Seipel, Christian",
+          "title": "Rassismus und migrationsfeindliche Einstellungen in Deutschland",
+          "in": "Handbuch Migrationssoziologie",
+          "editors": "Röder, Antje; Zifonun, Darius",
+          "location": "Wiesbaden",
+          "publisher": "Springer VS",
+          "type": "chapter"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "entries": [
+        {
+          "authors": "Herma, Holger",
+          "title": "Bezugsräume des Selbst. Praxis, Funktion und Ästhetik moderner Selbstthematisierung",
+          "edition": "2. Auflage (aktualisiert und erweitert)",
+          "location": "Weinheim/Basel",
+          "publisher": "Beltz Juventa",
+          "type": "book"
+        },
+        {
+          "authors": "Rippl, Susanne; Seipel, Christian",
+          "title": "Rechtspopulismus und Rechtsextremismus. Erscheinung, Erklärung, empirische Ergebnisse",
+          "location": "Stuttgart",
+          "publisher": "Kohlhammer",
+          "type": "book"
+        },
+        {
+          "authors": "Rippl, Susanne; Seipel, Christian",
+          "title": "Methoden kulturvergleichender Sozialforschung",
+          "edition": "3., überarbeitete und aktualisierte Auflage",
+          "location": "Wiesbaden",
+          "publisher": "Springer VS",
+          "type": "book"
+        },
+        {
+          "authors": "Rippl, Susanne; Seipel, Christian",
+          "title": "Klassismus, Meritokratie und gruppenbezogene Vorurteile. Sozialer und kultureller Klassismus unter Studierenden: eine empirische Annäherung",
+          "journal": "Diskurs Kindheits- und Jugendforschung / Discourse. Journal of Childhood and Adolescence Research",
+          "volume": "3-2022",
+          "pages": "355-371",
+          "type": "article"
+        },
+        {
+          "authors": "Buchberger, Stephan; Holderberg, Per; Seipel, Christian",
+          "title": "Die Rolle der studentischen Interessenvertretung in Hochschulen",
+          "in": "'Qualität im Hochschulsystem' Eine Rundumschau im Posterformat. Die Beiträge zur 16. Jahrestagung der Gesellschaft für Hochschulforschung (GfHf), 35",
+          "editors": "Dippelhofer, Sebastian; Döppers, Theo",
+          "pages": "31-33",
+          "type": "chapter"
+        },
+        {
+          "authors": "Seipel, Christian; Rippl, Susanne; Kindervater, Angela",
+          "title": "Autoritarismus",
+          "in": "Politische Psychologie. Handbuch für Wissenschaft und Studium",
+          "editors": "Zmerli, Sonja; Feldman, Ofer",
+          "edition": "2. Auflage",
+          "location": "Baden-Baden",
+          "publisher": "Nomos",
+          "pages": "175-198",
+          "type": "chapter"
+        },
+        {
+          "authors": "Rippl, Susanne; Seipel, Christian; Kindervater, Angela",
+          "title": "Politische Sozialisation",
+          "in": "Politische Psychologie. Handbuch für Wissenschaft und Studium",
+          "editors": "Zmerli, Sonja; Feldman, Ofer",
+          "edition": "2. Auflage",
+          "location": "Baden-Baden",
+          "publisher": "Nomos",
+          "pages": "83-102",
+          "type": "chapter"
+        }
+      ]
+    }
+  ]
+}

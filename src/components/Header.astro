@@ -1,0 +1,55 @@
+---
+import labels from '../data/labels.json';
+
+interface Props {
+  lang: 'de' | 'en';
+}
+
+const { lang } = Astro.props;
+const t = labels[lang];
+const otherLang = lang === 'de' ? 'en' : 'de';
+const otherLangUrl = lang === 'de' ? '/en/' : '/';
+---
+
+<header class="bg-white border-b border-primary-100 sticky top-0 z-50">
+  <div class="container-narrow py-4">
+    <nav class="flex items-center justify-between">
+      <a href={lang === 'de' ? '/' : '/en/'} class="text-lg font-serif text-primary-900 hover:text-primary-700 no-underline">
+        Prof. Dr. Michael Corsten
+      </a>
+
+      <div class="flex items-center gap-6">
+        <ul class="hidden md:flex items-center gap-6 text-sm">
+          <li>
+            <a href={lang === 'de' ? '/#forschung' : '/en/#research'} class="text-primary-600 hover:text-primary-900 no-underline">
+              {t.nav.research}
+            </a>
+          </li>
+          <li>
+            <a href={lang === 'de' ? '/#publikationen' : '/en/#publications'} class="text-primary-600 hover:text-primary-900 no-underline">
+              {t.nav.publications}
+            </a>
+          </li>
+          <li>
+            <a href={lang === 'de' ? '/#kontakt' : '/en/#contact'} class="text-primary-600 hover:text-primary-900 no-underline">
+              {t.nav.contact}
+            </a>
+          </li>
+        </ul>
+
+        <!-- Language Switcher -->
+        <div class="flex items-center border-l border-primary-200 pl-6">
+          <a
+            href={otherLangUrl}
+            class="flex items-center gap-1 text-sm text-primary-600 hover:text-primary-900 no-underline"
+            title={otherLang === 'en' ? 'Switch to English' : 'Auf Deutsch wechseln'}
+          >
+            <span class={lang === 'de' ? 'font-semibold text-primary-900' : ''}>DE</span>
+            <span class="text-primary-300">|</span>
+            <span class={lang === 'en' ? 'font-semibold text-primary-900' : ''}>EN</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>

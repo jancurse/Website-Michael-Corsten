@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import ResearchSection from '../../components/ResearchSection.astro';
+import CVSection from '../../components/CVSection.astro';
+import PublicationList from '../../components/PublicationList.astro';
+import ContactInfo from '../../components/ContactInfo.astro';
+
+const lang = 'en';
+---
+
+<BaseLayout title="Prof. Dr. Michael Corsten - University of Hildesheim" lang={lang}>
+  <Hero lang={lang} />
+  <CVSection lang={lang} />
+  <ResearchSection lang={lang} />
+  <PublicationList lang={lang} />
+  <ContactInfo lang={lang} />
+</BaseLayout>

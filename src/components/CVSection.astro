@@ -1,0 +1,47 @@
+---
+import cv from '../data/cv.json';
+import labels from '../data/labels.json';
+
+interface Props {
+  lang: 'de' | 'en';
+}
+
+const { lang } = Astro.props;
+const t = labels[lang];
+---
+
+<section id="cv" class="py-12 bg-white">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-gray-900 mb-8">{t.sections.cv}</h2>
+
+    <div class="mb-10">
+      <h3 class="text-2xl font-semibold text-gray-800 mb-6">{t.sections.education}</h3>
+      <div class="space-y-4">
+        {cv.education.map((item) => (
+          <div class="flex flex-col sm:flex-row sm:gap-4 border-l-4 border-blue-600 pl-4 py-2">
+            <div class="sm:w-32 flex-shrink-0 font-semibold text-blue-600">{item.years}</div>
+            <div>
+              <span class="font-semibold text-gray-800">{item.type[lang]}</span>
+              <p class="text-gray-600">{item.description[lang]}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div>
+      <h3 class="text-2xl font-semibold text-gray-800 mb-6">{t.sections.career}</h3>
+      <div class="space-y-4">
+        {cv.career.map((item) => (
+          <div class="flex flex-col sm:flex-row sm:gap-4 border-l-4 border-green-600 pl-4 py-2">
+            <div class="sm:w-32 flex-shrink-0 font-semibold text-green-600">{item.date}</div>
+            <div>
+              <span class="font-semibold text-gray-800">{item.position[lang]}</span>
+              <p class="text-gray-600">{item.description[lang]}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
