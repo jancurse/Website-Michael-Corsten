@@ -47,6 +47,11 @@ function formatPublication(pub: any): string {
     result += `. <a href="https://doi.org/${pub.doi}" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank" rel="noopener">DOI</a>`;
   }
 
+  if (pub.link) {
+    const linkLabel = pub.linkLabel || 'Link';
+    result += `. <a href="${pub.link}" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank" rel="noopener">${linkLabel}</a>`;
+  }
+
   result += '.';
   return result;
 }
