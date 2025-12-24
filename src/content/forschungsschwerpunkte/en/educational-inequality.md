@@ -1,5 +1,12 @@
 ---
 title: Educational Inequality
+lead: "Prof. Dr. Janna Teltemann"
+team: "Christina Lokk"
+subtopics:
+  - "Lifestyles and consumption patterns in migrant milieus"
+  - "Effects of residential segregation on school choice decisions"
+  - "Education system effects on migration-related educational inequality"
+  - "Governance of education in transition"
 ---
 
 

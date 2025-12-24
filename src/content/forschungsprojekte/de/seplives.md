@@ -1,5 +1,8 @@
 ---
 title: "SEPLIVES: Die strukturellen Bedingungen getrennter Schullaufbahnen: Eine kombinierte Perspektive auf ethnische Stratifizierung und Segregation im deutschen Sekundarschulbereich"
+lead: "Prof. Dr. Janna Teltemann, Dr. Hanno Kruse"
+funding: "Jacobs Foundation"
+years: "2018-2020"
 ---
 
 

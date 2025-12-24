@@ -1,5 +1,12 @@
 ---
 title: Bildungsungleichheit
+lead: "Prof. Dr. Janna Teltemann"
+team: "Christina Lokk"
+subtopics:
+  - "Lebens- und Konsumstile in migrantisch geprägten Milieus"
+  - "Auswirkungen residentieller Segregation auf Schulwahlentscheidungen"
+  - "Bildungssystemeffekte auf migrationsbedingte Bildungsungleichheit"
+  - "Governance von Bildung im Wandel"
 ---
 
 

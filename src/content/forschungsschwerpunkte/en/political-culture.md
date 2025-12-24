@@ -1,5 +1,12 @@
 ---
 title: Political Culture and Civil Society Engagement
+lead: "Prof. Dr. Michael Corsten"
+team: "Per Holderberg, Melanie Pierburg, Christian Seipel"
+subtopics:
+  - "Civil society engagement"
+  - "Political participation"
+  - "Authoritarianism research"
+  - "Solidarity discourses in crises"
 ---
 
 

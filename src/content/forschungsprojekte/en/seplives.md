@@ -1,5 +1,8 @@
 ---
 title: "SEPLIVES: The Structural Conditions of Separated School Careers: A Combined Perspective on Ethnic Stratification and Segregation in German Secondary Education"
+lead: "Prof. Dr. Janna Teltemann, Dr. Hanno Kruse"
+funding: "Jacobs Foundation"
+years: "2018-2020"
 ---
 
 

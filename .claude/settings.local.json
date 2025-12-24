@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:www.uni-hildesheim.de)"
+      "WebFetch(domain:www.uni-hildesheim.de)",
+      "WebSearch"
     ]
   }
 }
