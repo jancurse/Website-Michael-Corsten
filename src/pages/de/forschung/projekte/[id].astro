@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+import labels from '../../../../content/labels.json';
+
+export async function getStaticPaths() {
+  const projects = (await getCollection('forschungsprojekte')).filter(p => p.id.startsWith('de/'));
+  return projects.map((project) => ({
+    params: { id: project.id.replace('de/', '') },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+const lang = 'de';
+const t = labels[lang];
+---
+
+<BaseLayout title={`${project.data.title} - Prof. Dr. Michael Corsten`} lang={lang}>
+  <div class="page-container">
+    <!-- Back Navigation -->
+    <div class="mb-6">
+      <a href={`/${lang}/forschung`} class="text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-2">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+        </svg>
+        {t.nav.research}
+      </a>
+    </div>
+
+    <!-- Project Header -->
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold text-slate-900 dark:text-white mb-4">
+        {project.data.title}
+      </h1>
+      {project.data.years && (
+        <span class="inline-block text-sm text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-700 px-3 py-1 rounded">
+          {project.data.years}
+        </span>
+      )}
+    </div>
+
+    <!-- Project Details -->
+    <div class="space-y-6">
+      {project.data.lead && (
+        <div class="card">
+          <h2 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">{t.labels.projectLead}</h2>
+          <p class="text-slate-900 dark:text-white">{project.data.lead}</p>
+        </div>
+      )}
+
+      {project.data.team && (
+        <div class="card">
+          <h2 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">{t.labels.team}</h2>
+          <p class="text-slate-900 dark:text-white">{project.data.team}</p>
+        </div>
+      )}
+
+      {project.data.funding && (
+        <div class="card">
+          <h2 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">{t.labels.funding}</h2>
+          <p class="text-slate-900 dark:text-white">{project.data.funding}</p>
+        </div>
+      )}
+
+      {project.data.duration && (
+        <div class="card">
+          <h2 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">{t.labels.duration}</h2>
+          <p class="text-slate-900 dark:text-white">{project.data.duration}</p>
+        </div>
+      )}
+
+      <div class="card">
+        <h2 class="text-xl font-semibold text-slate-900 dark:text-white mb-4">Projektbeschreibung</h2>
+        <div class="prose dark:prose-invert max-w-none">
+          <Content />
+        </div>
+      </div>
+
+      {project.data.contact && (
+        <div class="card">
+          <h2 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">{t.labels.contact}</h2>
+          <p class="text-slate-900 dark:text-white">{project.data.contact}</p>
+        </div>
+      )}
+    </div>
+  </div>
+</BaseLayout>

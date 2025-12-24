@@ -1,0 +1,13 @@
+---
+title: Politische Kultur und zivilgesellschaftliches Engagement
+---
+
+# Politische Kultur und zivilgesellschaftliches Engagement
+
+Zivilgesellschaftliches Engagement wie die damit einhergehende Ausbildung einer Zivilen Kultur wird als wichtige Bindekraft und sozialer Integrationsfaktor in modernen Gesellschaften gesehen. Seit Beginn des 21. Jahrhunderts zeigen sich vermehrt Prozesse der Entsolidarisierung und Demokratieverdrossenheit.
+
+Die Abteilung Soziologie verfolgt diese Problematik in mehreren Forschungsprojekten und Qualifikationsarbeiten. Das Projekt "Solidaritätsdiskurse in Krisen" befasst sich in Zusammenarbeit mit den Fächern Politikwissenschaft (Prof'in Dr. Kneuer, Prof. Dr. Schammann) und Informationswissenschaft (Prof. Dr. Heid) anhand eines diskursanalytischen Untersuchungsdesigns das Solidaritätsverständnis verschiedener Akteure auf mehreren gesellschaftlichen Ebenen (Mikro - Meso - Makro) zu rekonstruieren.
+
+Die Dissertationsvorhaben von Per Holderberg und Melanie Pierburg beschäftigen sich mit Facetten, Formen und Funktionen zivilgesellschaftlichen Engagements. Per Holderberg untersucht in seiner Dissertation den Zusammenhang zwischen der Generationenzugehörigkeit und der Intensität und Ausgestaltung der politischen Partizipation und des zivilgesellschaftlichen Engagements. Zur Beantwortung der Frage ob die Determinante Generation einen prägenden Einfluss auf die Beteiligung im politischen und zivilen Engagements besitzt, werden sekundäranalytische Auswertungen des ALLBUS, Freiwilligen Surveys und weiterer relevanter Datensätze sowohl im Quer- als auch im Längsschnitt durchgeführt. Melanie Pierburg untersucht ethnographisch Weiterbildungspraktiken im Feld der Sterbebegleitung. Dabei interessiert sie sich für Professionalisierungsprozesse jenseits formeller beruflicher Weiterbildung und damit einhergehende Selbstthematisierungen im Grenzbereich pädagogischen Handelns. Die symbolische Arbeit im Rahmen postmodernen Sterbens steht im Mittelpunkt ihrer Forschung.
+
+In dem Projekt von Christian Seipel soll ein empirischer Theorienvergleich vorgenommen werden. Dabei wird der Frage nachgegangen, welche theoretischen Ansätze die Affinität rechtspopulistischer und rechtsextremer Einstellungen und Handlungen erklären kann. Dazu werden die Modernisierungsverlierer-These, die cultural backlash-These und die Postdemokratie-These in einer Sekundäranalyse miteinander verglichen. Datengrundlage sind die "Allgemeinen Bevölkerungsumfragen der Sozialwissenschaften" (ALLBUS) der Jahre 1996, 2006 und 2016.

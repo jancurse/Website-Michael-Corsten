@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+import labels from '../../../../content/labels.json';
+
+export async function getStaticPaths() {
+  const focusAreas = (await getCollection('forschungsschwerpunkte')).filter(f => f.id.startsWith('en/'));
+  return focusAreas.map((area) => ({
+    params: { id: area.id.replace('en/', '') },
+    props: { area },
+  }));
+}
+
+const { area } = Astro.props;
+const { Content } = await render(area);
+const lang = 'en';
+const t = labels[lang];
+---
+
+<BaseLayout title={`${area.data.title} - Prof. Dr. Michael Corsten`} lang={lang}>
+  <div class="page-container">
+    <!-- Back Navigation -->
+    <div class="mb-6">
+      <a href={`/${lang}/forschung`} class="text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-2">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+        </svg>
+        {t.nav.research}
+      </a>
+    </div>
+
+    <!-- Focus Area Header -->
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold text-slate-900 dark:text-white mb-4">
+        {area.data.title}
+      </h1>
+    </div>
+
+    <!-- Focus Area Details -->
+    <div class="space-y-6">
+      {area.data.lead && (
+        <div class="card">
+          <h2 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">{t.labels.responsible}</h2>
+          <p class="text-slate-900 dark:text-white">{area.data.lead}</p>
+        </div>
+      )}
+
+      {area.data.team && (
+        <div class="card">
+          <h2 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">{t.labels.researchTeam}</h2>
+          <p class="text-slate-900 dark:text-white">{area.data.team}</p>
+        </div>
+      )}
+
+      <div class="card">
+        <h2 class="text-xl font-semibold text-slate-900 dark:text-white mb-4">Description</h2>
+        <div class="prose dark:prose-invert max-w-none">
+          <Content />
+        </div>
+      </div>
+
+      {area.data.subtopics && area.data.subtopics.length > 0 && (
+        <div class="card">
+          <h2 class="text-xl font-semibold text-slate-900 dark:text-white mb-4">{t.labels.subtopics}</h2>
+          <ul class="space-y-2">
+            {area.data.subtopics.map((subtopic: string) => (
+              <li class="flex items-start gap-3">
+                <div class="w-1.5 h-1.5 rounded-full bg-blue-500 mt-2 flex-shrink-0"></div>
+                <span class="text-slate-700 dark:text-slate-300">{subtopic}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  </div>
+</BaseLayout>

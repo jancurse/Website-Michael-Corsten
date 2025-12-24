@@ -1,31 +1,64 @@
 # Prof. Dr. Michael Corsten - Personal Website
 
-Personal academic website built with Astro and Tailwind CSS. Bilingual (German/English).
+Bilingual academic website built with Astro and Tailwind CSS.
 
-## Development
+## Viewing the Site Locally
+
+To view the site in your browser while making changes, run the development server. This allows you to preview changes in real-time.
 
 ```bash
 npm install
 npm run dev
 ```
 
-Starts a local server at `localhost:4321` with live reloading for development.
+Then open `http://localhost:4321` in your browser. The page automatically refreshes when you save changes to content files.
 
-## Build
+## Building for Production
+
+To create a production-ready version of the site for deployment:
 
 ```bash
 npm run build
 ```
 
-Generates static HTML/CSS/JS files in `dist/` for deployment (e.g., GitHub Pages).
+The optimized static files are generated in the `dist/` directory.
 
-## Update Content
+## Updating Content
 
-Edit the JSON files in the `content/` folder:
+### Basic Information
 
-- `contact.json` - Contact information
-- `publications.json` - Publication list
-- `projects.json` - Research projects
-- `research.json` - Research focus areas
-- `cv.json` - Education and career
-- `labels.json` - UI text translations (German/English)
+Basic information is stored in the following JSON files in `src/content/`:
+
+- `kontakt.json` - Contact information
+- `lebenslauf.json` - CV data
+- `labels.json` - UI labels
+
+Edit these files directly to update the site.
+
+### Publications
+
+Publications are stored in `src/content/publikationen.json`. You can modify this file directly to add or update publications, or you can use the provided tool to add a publication using its DOI number:
+
+```bash
+python tools/add-publication.py 10.1177/13684310211045794
+```
+
+### Research Projects and Focus Areas
+
+Research projects and focus areas are stored as markdown files in `src/content/forschungsprojekte/` and `src/content/forschungsschwerpunkte/`. Each entry has a German version in `de/` and an English version in `en/`.
+
+The files use frontmatter (metadata between `---` markers at the top) for information like title, lead, team, funding, and years:
+
+```yaml
+---
+title: "Project Title"
+lead: "Project Lead"
+team: "Team Members"
+funding: "Funding Source"
+years: "2020-2023"
+---
+
+Content in markdown...
+```
+
+Create or edit these files to update content.
