@@ -32,12 +32,15 @@
           "editors": "Wilke, R.; Knoblauch, H.",
           "location": "Weinheim",
           "publisher": "Beltz Juventa",
+          "pages": "62-80",
           "type": "chapter",
           "link": "https://www.beltz.de/fileadmin/beltz/leseproben/9783779985242_shortened.pdf"
-        },{
+        },
+        {
           "authors": "Corsten, Michael; Maleyka, Laura",
           "title": "Die Präsentation der biographischen Visitenkarte: Erzählstimulus und Selbsteinführung am Interviewbeginn",
           "journal": "BIOS - Zeitschrift für Biographieforschung, Oral History und Lebensverlaufsanalysen",
+          "pages": "157-181",
           "type": "article",
           "id": "visitenkarte25",
           "doi": "10.3224/bios.v37i1+2.06"
@@ -105,7 +108,9 @@
           "title": "\"Man wirft der DDR ja viel Negatives vor\": Bildungserfahrungen im Spannungsfeld von biographischen Erinnerungen und kollektivem Wissen",
           "in": "Polarisierte Welten. Verhandlungen des 41. Kongresses der Deutschen Gesellschaft für Soziologie",
           "type": "conference",
-          "id": "ddr23"
+          "id": "ddr23",
+          "doi": "https://doi.org/10.21241/ssoar.99145",
+          "Link": "https://publikationen.soziologie.de/index.php/kongressband_2022/de/article/view/1635"
         },
         {
           "authors": "Corsten, Michael; Gordt, Sandra; Pierburg, Melanie",
