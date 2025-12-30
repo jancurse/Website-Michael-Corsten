@@ -6,7 +6,6 @@ subtopics:
 - ‘Autobiographical Narrative and Mythification’
 - ‘Biography and Temporality’
 - ‘Biography, Life Course and Generation’
-
 ---
 
 Biographical research deals with descriptions of life as a social fact (Corsten 1994). This applies in two ways: firstly, biographies have developed as a social form in the process of cultural history and, secondly, they contain the everyday and life practices of individual people as they were lived in the past. In this respect, biographies document the forms in which people's lives were described at certain times, but also indirectly convey the lifestyles of the people themselves through what is described. Biographies therefore contain multi-layered references to the relationship between the individual and society in a historical phase.
