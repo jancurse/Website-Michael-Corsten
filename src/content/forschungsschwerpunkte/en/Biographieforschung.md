@@ -18,8 +18,6 @@ Autobiography, habitus and subjectification
 A first facet of biographical analysis concerns the process of subjectification of the modern person in relation to the socially generated habitus. Since modernity at the latest, individuals have been called upon to reflect on their individual lifestyles and to define themselves as subjects of these lifestyles. At the same time, in modernity, the individual experiences themselves as a socially formed being who has habitualised essential aspects of their capacity for action and their personality in the process of biographical socialisation. An important branch of research therefore consists in the theoretical determination and empirical reconstruction of the connections between autobiography, subjectification and habitus genesis.
  
 
----
-
 
  
 
