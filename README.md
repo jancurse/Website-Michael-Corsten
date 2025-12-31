@@ -45,13 +45,14 @@ python tools/add-publication.py 10.1177/13684310211045794
 
 ### Research Projects and Focus Areas
 
-Research projects and focus areas are stored as markdown files in `src/content/forschungsprojekte/` and `src/content/forschungsschwerpunkte/`. Each entry has a German version in `de/` and an English version in `en/`.
+Research projects and focus areas are stored as markdown files in `src/content/forschungsprojekte/` and `src/content/forschungsschwerpunkte/`. Each entry has a German version in `de/` and an English version in `en/`. Create or edit these files to update content.
 
 The files use frontmatter (metadata between `---` markers at the top) for information like title, lead, team, funding, and years:
 
 ```yaml
 ---
 title: "Project Title"
+order: 1
 lead: "Project Lead"
 team: "Team Members"
 funding: "Funding Source"
@@ -64,6 +65,5 @@ papers:
 Content in markdown...
 ```
 
-The `papers` field links to publications from `publikationen.json` using their IDs. Each publication has a short ID (visible in the JSON file) that you can reference. The build process validates that all referenced IDs exist.
-
-Create or edit these files to update content.
+- `order` controls display order. Entries are sorted by order (lowest first) then alphabetically by title. Missing order means last.
+- `papers` links to publications from `publikationen.json` by ID

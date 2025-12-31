@@ -11,8 +11,12 @@ const { lang } = Astro.props;
 const t = labels[lang];
 const allFocusAreas = await getCollection('forschungsschwerpunkte');
 const allProjects = await getCollection('forschungsprojekte');
-const focusAreas = allFocusAreas.filter(f => f.id.startsWith(`${lang}/`));
-const projects = allProjects.filter(p => p.id.startsWith(`${lang}/`));
+const focusAreas = allFocusAreas
+  .filter(f => f.id.startsWith(`${lang}/`))
+  .sort((a, b) => (a.data.order ?? Infinity) - (b.data.order ?? Infinity) || a.data.title.localeCompare(b.data.title));
+const projects = allProjects
+  .filter(p => p.id.startsWith(`${lang}/`))
+  .sort((a, b) => (a.data.order ?? Infinity) - (b.data.order ?? Infinity) || a.data.title.localeCompare(b.data.title));
 ---
 
 <BaseLayout title={`${t.nav.research} - Prof. Dr. Michael Corsten`} lang={lang}>
