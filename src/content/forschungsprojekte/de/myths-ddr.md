@@ -6,6 +6,13 @@ years: "2019-2023"
 focus_area: Biographieforschung
 ---
 
+## Zusammenfassung
+ 
+Die Fallstudie widmet sich der Analyse von "Mythen in erzählten Bildungs- und Kindheitserfahrungen der DDR" anhand von Zeitzeug_inneninterviews bezogen auf Bilder von Kindheit, Schule und Erziehung. Es wird eine auf Bildungsmythen bezogene Analyse der vorliegenden biographischen Interviews durchgeführt, neue Interviews mit damaligen Befragten werden erhoben, ausgewertet und mit den Ergebnissen der Re-Analyse verglichen. Konzeptionell und methodisch orientiert sich die Fallstudie an Theorien des sozialen Gedächtnisses (Halbwachs 1985, Assmann 1999, Welzer 2006), der strukturalen Mythentheorie (Barthes 2010) und an der Oral History (Thompson 1973, Niethammer 1991). 
+Im Zentrum der Fallstudie steht das reflexive Transferpotenzial prägnanter Zeitzeugen-Erzählungen für das Problem wie historisches Wissen über die Bildungsprozesse der DDR im Zusammenspiel zwischen Weitergabe und Umdeutung im kommunikativen Gedächtnis der Gesellschaft bestehen bleibt und transformiert wird.
+
+Die Fallstudie gehört zum Forschungsverbund "Bildungsmythen der DDR" und ist an der Universität Hildesheim im Teilprojekt "Konstruktionen der Kindheit" verortet.
+
 ## Verbundprojekt: Bildungsmythen der DDR
 
 Beteiligte Institutionen: Bibliothek für Bildungsgeschichtliche Forschung Berlin, Humboldt Universität zu Berlin, Universität Rostock, Universität Hildesheim
@@ -25,11 +32,5 @@ Prof. Dr. Meike Sophia Baader, Prof. Dr. Michael Corsten, Dr. Simon Gordt (2020-
 Das Teilprojekt der Universität der Hildesheim besteht aus den Fallstudien „Mythen in erzählten Bildungs‐ und Kindheitserfahrungen der DDR“ (Prof. Dr. Michael Corsten) und "Bilderwelten in Kinderliteratur und Schulbüchern der DDR“ (Prof. Dr. Meike Sophia Baader)
 
 
- ## Fallstudie: Mythen in erzählten Bildungs- und Kindheitserfahrungen der DDR
-
  
-Ziel der ersten Fallstudie ist die Analyse der "Mythen in erzählten Bildungs- und Kindheitserfahrungen der DDR" anhand von Zeitzeug_inneninterviews bezogen auf Bilder von Kindheit, Schule und Erziehung. Es wird eine auf Bildungsmythen bezogene Analyse der vorliegenden biographischen Interviews durchgeführt, neue Interviews mit damaligen Befragten werden erhoben, ausgewertet und mit den Ergebnissen der Re-Analyse verglichen. Konzeptionell und methodisch orientiert sich das Teilprojekt an Theorien des sozialen Gedächtnisses (Halbwachs 1985, Assmann 1999, Welzer 2006), der strukturalen Mythentheorie (Barthes 2010) und an der Oral History (Thompson 1973, Niethammer 1991). 
-Im Zentrum der Fallstudie steht das reflexive Transferpotenzial prägnanter Zeitzeugen-Erzählungen für das Problem wie historisches Wissen über die Bildungsprozesse der DDR im Zusammenspiel zwischen Weitergabe und Umdeutung im kommunikativen Gedächtnis der Gesellschaft bestehen bleibt und transformiert wird.
-In der Fallstudie „Bilderwelten" entsteht aus der Sichtung der Literatur (Bibliothek für Bildungsgeschichtliche Forschung und Staatsbibliothek Berlin) eine Datenbank, die für weitere Forschungen verfügbar sein wird.
-Die Ergebnisse beider Studien werden für die Lehre, die politische Bildung und für eine interessierte Öffentlichkeit zugänglich gemacht.
  
