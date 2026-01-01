@@ -12,6 +12,7 @@ const forschungsprojekte = defineCollection({
     contact: z.string().optional(),
     papers: z.array(z.string()).optional(),
     focus_area: z.string().optional(), // References a focus area ID (e.g., "Biographieforschung", "solidarity")
+    status: z.string().optional(), // e.g., "laufend", "abgeschlossen", "in Vorbereitung"
   }),
 });
 
@@ -23,6 +24,7 @@ const forschungsschwerpunkte = defineCollection({
     team: z.string().optional(),
     subtopics: z.array(z.string()).optional(),
     papers: z.array(z.string()).optional(),
+    status: z.string().optional(), // e.g., "laufend", "abgeschlossen", "in Vorbereitung"
   }),
 });
 

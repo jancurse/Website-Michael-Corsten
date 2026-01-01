@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import labels from '../../content/labels.json';
 import ProjectCard from '../ProjectCard.astro';
+import StatusBadge from '../StatusBadge.astro';
 
 interface Props {
   lang: 'de' | 'en';
@@ -74,6 +75,7 @@ const getFocusAreaId = (area: typeof focusAreas[0]) => area.id.replace(`${lang}/
                       <h3 class="text-xl font-semibold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                         {area.data.title}
                       </h3>
+                      {area.data.status && <StatusBadge status={area.data.status} variant="compact" />}
                     </div>
 
                     <div class="grid gap-2 text-sm mt-2">

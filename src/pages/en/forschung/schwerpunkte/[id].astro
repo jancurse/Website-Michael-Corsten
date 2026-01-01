@@ -4,6 +4,7 @@ import { getCollection, render } from 'astro:content';
 import labels from '../../../../content/labels.json';
 import RelatedPublications from '../../../../components/RelatedPublications.astro';
 import ProjectCard from '../../../../components/ProjectCard.astro';
+import StatusBadge from '../../../../components/StatusBadge.astro';
 
 export async function getStaticPaths() {
   const focusAreas = (await getCollection('forschungsschwerpunkte')).filter(f => f.id.startsWith('en/'));
@@ -53,9 +54,12 @@ const metaItems = [
         {t.labels.focusArea}
       </div>
 
-      <h1 class="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white tracking-tight leading-tight">
-        {area.data.title}
-      </h1>
+      <div class="flex items-center gap-3 mb-4">
+        <h1 class="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white tracking-tight leading-tight">
+          {area.data.title}
+        </h1>
+        {area.data.status && <StatusBadge status={area.data.status} />}
+      </div>
     </header>
 
     <!-- Metadata -->

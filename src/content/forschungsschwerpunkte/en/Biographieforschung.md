@@ -1,6 +1,7 @@
 ---
 title: Biographical Research
 order: 1
+status: laufend
 subtopics:
 - ‘Autobiography, Habitus and Subjectification'
 - ‘Biography and Spheres of Life Practice’

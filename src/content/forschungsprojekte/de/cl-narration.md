@@ -4,6 +4,7 @@ lead: "Prof. Dr. Michael Corsten, Prof. Dr. Ulich Heid"
 team: "Dr. Fritz Kliche, Dr. Laura Maleyka"
 funding: "Eigenmittel"
 years: "2025-x"
+status: in Vorbereitung
 focus_area: "Biographieforschung"
 ---
 

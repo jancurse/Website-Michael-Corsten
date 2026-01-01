@@ -1,5 +1,6 @@
 ---
 import labels from '../content/labels.json';
+import StatusBadge from './StatusBadge.astro';
 
 interface Props {
   project: {
@@ -10,6 +11,7 @@ interface Props {
       lead?: string;
       team?: string;
       funding?: string;
+      status?: string;
     };
   };
   lang: 'de' | 'en';
@@ -27,16 +29,15 @@ const projectUrl = `/${lang}/forschung/projekte/${project.id.replace(`${lang}/`,
     "hover:shadow-md hover:border-blue-200 dark:hover:border-blue-600 transition-all duration-200",
     variant === 'compact' ? 'p-4' : 'p-5'
   ]}>
-    <!-- Header: Title + Years -->
+    <!-- Header: Title + Status/Years -->
     <div class="flex items-start justify-between gap-4 mb-3">
       <h4 class="font-medium text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
         {project.data.title}
       </h4>
-      {project.data.years && (
-        <span class="flex-shrink-0 text-xs font-medium text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/30 px-2.5 py-1 rounded-full">
-          {project.data.years}
-        </span>
-      )}
+      <div class="flex items-center gap-2 flex-shrink-0">
+        {project.data.status && <StatusBadge status={project.data.status} variant="compact" />}
+        {project.data.years && <span class="text-xs px-2 py-1 rounded bg-slate-100 dark:bg-slate-800">{project.data.years}</span>}
+      </div>
     </div>
 
     <!-- Meta info grid -->

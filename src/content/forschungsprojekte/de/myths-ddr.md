@@ -3,6 +3,7 @@ title: Mythen in erzählten Bildungs- und Kindheitserfahrungen der DDR
 team: "Prof. Dr. Michael Corsten, Dr. Melanie Pierburg, Larissa Jafke (2019-20), Dr. Simon Gordt (2020-21)"
 funding: "BMBF"
 years: "2019-2023"
+status: abgeschlossen
 focus_area: Biographieforschung
 ---
 

@@ -1,8 +1,9 @@
 ---
-title: Re-Mythisierungen als Realprodukte einer sozialistischen Persönlichkeitsbildung
+title: Re-Mythisierungen als Realprokte einer sozialistischen Persönlichkeitsbildung
 team: "Prof. Dr. Michael Corsten, Dr. Melanie Pierburg"
 funding: "BMBF/BMFTR"
 years: "2023-2025"
+status: laufend
 focus_area: Biographieforschung
 ---
 
