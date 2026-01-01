@@ -4,6 +4,7 @@ lead: "Prof. Dr. Michael Corsten, Prof. Dr. Ulrich Heid"
 team: "Dr. Fritz Kliche, Dr. Laura Maleyka"
 funding: "Own funds"
 years: "2025-x"
+research_area: "Biographical Research"
 ---
 
 
