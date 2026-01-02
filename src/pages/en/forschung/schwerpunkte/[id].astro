@@ -7,14 +7,13 @@ import ProjectCard from '../../../../components/ProjectCard.astro';
 import StatusBadge from '../../../../components/StatusBadge.astro';
 
 // Helper function to create URL-friendly IDs from text
+// Matches github-slugger behavior used by rehype-slug
 function createSlug(text: string): string {
   return text
     .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '') // Remove accents
-    .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
     .trim()
-    .replace(/\s+/g, '-'); // Replace spaces with hyphens
+    .replace(/\s+/g, '-') // Replace spaces with hyphens
+    .replace(/[^\p{L}\p{N}-]/gu, ''); // Remove non-word/non-digit chars except hyphens (keeps umlauts)
 }
 
 export async function getStaticPaths() {
