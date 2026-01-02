@@ -3,5 +3,8 @@
  */
 export function url(path: string): string {
   const base = import.meta.env.BASE_URL || '/';
-  return `${base}${path}`.replace(/\/+/g, '/');
+  // Ensure exactly one slash between base and path
+  const baseClean = base.replace(/\/+$/, '');
+  const pathClean = path.replace(/^\/+/, '');
+  return `${baseClean}/${pathClean}`;
 }
