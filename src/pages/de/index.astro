@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import contact from '../../content/kontakt.json';
 import labels from '../../content/labels.json';
+import { url } from '../../utils/paths';
 
 const lang = Astro.currentLocale as 'de' | 'en';
 const t = labels[lang];
@@ -16,25 +17,25 @@ const navCards = [
   {
     title: t.nav.research,
     description: t.index.researchDescription,
-    href: `/${lang}/${routeSlugs[lang].research}`,
+    href: url(`/${lang}/${routeSlugs[lang].research}`),
     icon: 'research',
   },
   {
     title: t.nav.publications,
     description: t.index.publicationsDescription,
-    href: `/${lang}/${routeSlugs[lang].publications}`,
+    href: url(`/${lang}/${routeSlugs[lang].publications}`),
     icon: 'publications',
   },
   {
     title: t.nav.cv,
     description: t.index.cvDescription,
-    href: `/${lang}/${routeSlugs[lang].cv}`,
+    href: url(`/${lang}/${routeSlugs[lang].cv}`),
     icon: 'cv',
   },
   {
     title: t.nav.contact,
     description: t.index.contactDescription,
-    href: `/${lang}/${routeSlugs[lang].contact}`,
+    href: url(`/${lang}/${routeSlugs[lang].contact}`),
     icon: 'contact',
   },
 ];
@@ -51,7 +52,7 @@ const navCards = [
         <!-- Profile Image -->
         <div class="flex-shrink-0">
           <div class="w-40 h-40 md:w-48 md:h-48 rounded-full bg-gradient-to-br from-slate-200 to-slate-300 dark:from-slate-700 dark:to-slate-600 flex items-center justify-center shadow-2xl ring-4 ring-white dark:ring-slate-800 overflow-hidden">
-            <img src="/images/profile.png" alt={contact.name} class="w-full h-full object-cover">
+            <img src={url("/images/profile.png")} alt={contact.name} class="w-full h-full object-cover">
           </div>
         </div>
 

@@ -7,6 +7,11 @@
     @apply scroll-smooth;
   }
 
+  /* Offset anchor links to account for sticky header */
+  h1, h2, h3, h4, h5, h6 {
+    @apply scroll-mt-24;
+  }
+
   body {
     @apply antialiased;
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
