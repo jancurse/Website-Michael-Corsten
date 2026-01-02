@@ -1,7 +1,6 @@
 ---
 title: Biographieforschung
 order: 1
-status: laufend
 subtopics:
   - "Autobiographie, Habitus und Subjektivierung"
   - "Biographie und Sphären der Lebenspraxis"
